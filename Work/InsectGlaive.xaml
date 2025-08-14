@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Work.InsectGlaive"
+             Title="InsectGlaive"
+             BackgroundColor="#92754b">
+
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="HorizontalOptions" Value="Start"/>
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Padding" Value="10"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+
+            <Label Padding="10"/>
+            <Image Source="ig.png" HeightRequest="300" WidthRequest="400"/>
+
+            <Label Padding="20"/>
+            <Frame BackgroundColor="#af8e5f">
+                <StackLayout VerticalOptions="CenterAndExpand" Padding="5" Spacing="-15">
+                    <Label Text="Guard : Unable" FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="Desription : " FontAttributes="Bold" FontSize="18"/>
+                    <Label Text="A mobile weapon you use while controlling a creature known as a Kinsect."/>
+                    <Label Text="Gain powerful buffs by harvesting extracts from monsters."/>
+                    <Label Text="Vault into the air to perform jumping attacks at will."/>
+                </StackLayout>
+            </Frame>
+
+            <Label Padding="-10"/>
+            <Frame BackgroundColor="#af8e5f">
+                <StackLayout VerticalOptions="CenterAndExpand" Padding="5" Spacing="-15">
+                    <Label Text="Weapon Traits : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="The Insect Glaive is a double-ended rod is capable of quick and fluid attacks. It also allows the hunter to pole vault at any time, allowing Jumping Attacks to be performed at will."/>
+                    <Label Text="Coming with the rod is a giant insect called the Kinsect, which can be sent out to attack monsters, draining out an essence upon hitting and give it to the hunter upon returning. The hunter can either freely send out the Kinsect on a direct flight, or first shoot out a pheromone bullet at the monster that works as a lock on for the Kinsect to home in."/>
+                    <Label Text="The Insect Glaive, while having multi-hitting attacks that work well with the Elemental playstyle, also have high-power attacks that also fit the raw damage playstyle."/>
+                    <Label Text=""/>
+                    <Label Text="Kinsects : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="Literally the other half of this weapon. Kinsects assist the users of Insect Glaive in various way, either by gathering Extracts to buff the user or assisting in dealing additional damage. Their utility increases as the series progresses."/>
+                    <Label Text="They can be send out to attack, either directly from the direction the hunter is facing or through aiming mode not unlike that of Ranged Weapons, or through the use of Pheromone Marking from certain attacks that act as a spot for the Kinsect to home in."/>
+                    <Label Text="When sent out and successfully attacking a monster, the Kinsect will drain an Extract from the monster, and upon returning to the hunter, provide them with buff based on the color of the Extract."/>
+                    <Label Text="Like the weapon, Kinsects can be upgraded and evolved to strengthen them as the player progress through the game, increasing their damage output, flying speed, or stamina regeneration rate. There are also two type of Kinsects; Cutting and Impact."/>
+                    <Label Text="Kinsects possess the following stats : " FontAttributes="Bold" FontSize="16"/>
+                    <Label Text="• Power = The damage of the Kinsect."/>
+                    <Label Text="• Stamina = The stamina of the Kinsect."/>
+                    <Label Text="• Speed = The speed of the Kinsect."/>
+                    <Label Text="• Elemental = The elemental damage of the Kinsect corresponds to that element."/>
+                    <Label Text=""/>
+                    <Label Text="Extracts : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="Also known as Essence, Extracts are a type of buff unique to Insect Glaive receives by sending out Kinsect to attack a monster and call it back."/>
+                    <Label Text="• Red: The offensive Extract and the most important Extract. Red Extract not only increases the attack power of the user, but also change the move set, granting access to the most powerful attack of the Insect Glaive. Should be maintained at all cost. Often found on the monster parts used for attacking, such as head, and tail of certain monsters."/>
+                    <Label Text="• White: The mobility Extract. White Extract grants the user increased movement speed and higher aerial mobility. Can be combined with the Red or Orange Extract to strengthen the buff of those Extract and activate certain buff, known as Double Buff. Often found on the monster parts related to movement, such as legs or wings."/>
+                    <Label Text="• Orange: The defensive Extract. Orange Extract grants the user increased defensive power, and when combined with White Extract, can grant the user resistance to disables such as Roar, Wind Pressure, or Tremor. Often found on the monster parts related to defense, such as the body or the back."/>
+                    <Label Text="• Green: The healing Extract. This extract, instead of giving buff, will heal the user upon the Kinsect returning. It also does not interact with other Extracts. Often found on parts that is generally not used in fight, such as arms of Brute Wyvern."/>
+                    <Label Text=""/>
+                    <Label Text="Vaulting : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="The Insect Glaive's attacking style is based on the art of Bōjutsu, where the wielder employs various long-ranged techniques like thrusting, sweeping, and spinning. The techniques are not limited to just attacking, however, as the rod can also be used to perform tricky maneuvers like pole vaulting to gain a high-ground advantage, or for evasive purposes."/>
+                    <Label Text="Vaulting grants hunters access to Aerial Attacks at anytime they want. Repeated use of Aerial Attacks can lead to mounting the monster. If the mount is success, the monster is left vulnerable to attacks on the ground for several seconds."/>
+                    <Label Text="Vaulting can also be used as evasive maneuver to get out of the way from incoming attacks, as well as repositioning or chasing after moved-faraway monsters. However, the vaulting initiation, as well as when the hunter is in the air, grants no invulnerable frame (I-frame) the way true evasion does."/>
+                    <Label Text="Vaulting also eases in travelling vertically more quickly without needing to sheathe the weapon nor climb sluggishly."/>
+
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

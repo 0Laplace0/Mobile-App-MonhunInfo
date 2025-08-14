@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Work.DualBlades"
+             Title="DualBlades"
+             BackgroundColor="#92754b">
+
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="HorizontalOptions" Value="Start"/>
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Padding" Value="10"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+
+            <Label Padding="10"/>
+            <Image Source="db.png" HeightRequest="300" WidthRequest="300"/>
+
+            <Label Padding="20"/>
+            <Frame BackgroundColor="#af8e5f">
+                <StackLayout VerticalOptions="CenterAndExpand" Padding="5" Spacing="-15">
+                    <Label Text="Guard : Unable" FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="Desription : " FontAttributes="Bold" FontSize="18"/>
+                    <Label Text="A weapon designed for rapid attacks."/>
+                    <Label Text="Enter Demon Mode to boost the damage of your attacks. Archdemon Mode will further boost the damage of some attacks."/>
+                </StackLayout>
+            </Frame>
+
+            <Label Padding="-10"/>
+            <Frame BackgroundColor="#af8e5f">
+                <StackLayout VerticalOptions="CenterAndExpand" Padding="5" Spacing="-15">
+                    <Label Text="Weapon Traits : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="Dual Blades are more than just a couple of blades to slash and maim:"/>
+                    <Label Text="• Dual Blades do not provide shielding ability, but can roll after an attack, though rolling is not possible in the middle of a combo."/>
+                    <Label Text="• Dual Blades do not provide shielding ability, but can roll after an attack, though rolling is not possible in the middle of a combo."/>
+                    <Label Text="• Some attacks on Dual Blades are one sided, for example, pressing circle will do a quick spin-slash upwards to the right side, but if you press circle as well as left on the analog stick, your slash will be left-upward."/>
+                    <Label Text="• Because they are quick to deal multiple strikes in a short amount of time, Dual Blades lose sharpness faster than any other weapons. Also, when dual blades reach below standard sharpness the Demon's Dance will not complete and will only have 4 or 5 hits. Either carry spare Whetstones all the time when using Dual Blades, or invest in an armour set that provides increased Sharpness."/>
+                    <Label Text="• Elemental damage dealt with Duals is 30% less than what is shown. However, it is a very excellent weapon when it has elements."/>
+                    <Label Text="• If you land an affinity hit on the first hit of every input combo, the rest of the hits will all be affinity hits."/>
+                    <Label Text="• While wielding Dual Blades, you can enter Demon mode, this mode allows you to strike faster, deal more damage, resist Wind Pressure, and have super armor on non-boss attacks. While in this mode, hitting triangle and circle at the same time will initiate a combo, called the Demon's Dance, that will not bounce on contact."/>
+                    <Label Text="    • Demon Mode has a big drawback "/>
+                    <Label Text="         however. While in this mode, your stamina" Padding="0"/>
+                    <Label Text="      will drain at a quick pace until it is "/>
+                    <Label Text="         completely drained or Demonization is " Padding="0"/>
+                    <Label Text="      ended manually. Demonization also "/>
+                    <Label Text="         limits chances to dodge because when it " Padding="0"/>
+                    <Label Text="      ends, hunters are often left with no "/>
+                    <Label Text="        stamina to dodge with. This can be " Padding="0"/>
+                    <Label Text="      prevented with Power Juice, Mega Juice, "/>
+                    <Label Text="        or Mopeshroom if equipped with" Padding="0"/>
+                    <Label Text="     Mushroom Lover or Power Eater armor"/>
+                    <Label Text="        effects." Padding="0"/>
+                    <Label Text="    • Demon Mode can be ended manually by"/>
+                    <Label Text="         re-pressing R or sheathing your weapons." Padding="0"/>
+                    <Label Text="• Each sword can have different attributes. For example, the weapon Snow Venom wields both poison and ice elements." Padding="15"/>
+                    <Label Text=""/>
+                    <Label Text="Advantages : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="• The weapon has a myriad of improvements at the Weapons and Equipment shop. They can also be upgraded with different attributes, whether element or status effects, to immensely strengthen their wielder."/>
+                    <Label Text="• Great elemental DPS potential."/>
+                    <Label Text="• ﻿Demon Mode allows a wielder to unleash destructive chains of attacks."/>
+                    <Label Text="• Like the Sword and Shield, it boasts swift sheathing and agile movement."/>
+                    <Label Text="• Along with the Hammer, it's one of two weapons that can cancel a monster's wind effect in first generation games."/>
+                    <Label Text="• Some dual blades may have more than one element and/or status. For example, the Snow Venom offers both Poison and Ice."/>
+                    <Label Text="• Dual Blades generally have increased sharpness by default, as well as reduced sharpness consumption."/>
+                    <Label Text=""/>
+                    <Label Text="Limitations : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="• ﻿Sharpness tends to drop quickly, therefore users will find the most benefit if they have Sharpness preserving skills in hand."/>
+                    <Label Text="• Stamina decreases constantly when in Demon Mode, often time requiring Dash Juice for ease of uses."/>
+                    <Label Text="     • Demon Mode also continues "/>
+                    <Label Text="          automatically until the user physically" Padding="0"/>
+                    <Label Text="       presses the button to cancel it or runs "/>
+                    <Label Text="         out of Stamina." Padding="0"/>
+                    <Label Text="• Low damage per hit, but made up for by speedy attacks and long combos."/>
+                    <Label Text="• Shortest reach out of all weapons, requiring users to be much closer to the monster and thus increasing their risk of getting hit. Additionally, flying or immense monsters are hard to reach the optimal spots unless the monster is knocked down, which is easiest to achieve in multiplayer. This was somewhat eased in 5th generation, especially in Monster Hunter Rise."/>
+                    <Label Text="• Hunters should be aware of surroundings, as you may be locked in the attack backswing and, therefore, unable to dodge upcoming attacks. Additionally, Demon Dash covers a short range, which may make the hunter get caught in attacks with large or long lasting hitboxes."/>
+                    <Label Text="• Dual Blades deal reduced elemental damage per hit."/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

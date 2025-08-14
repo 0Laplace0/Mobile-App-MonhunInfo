@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kritp\\source\\repos\\Work\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BFA26745-16E5-4CA6-BF1D-2AA4C71EAD62}|Work\\Work.csproj|c:\\users\\kritp\\source\\repos\\work\\work\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BFA26745-16E5-4CA6-BF1D-2AA4C71EAD62}|Work\\Work.csproj|solutionrelative:work\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFA26745-16E5-4CA6-BF1D-2AA4C71EAD62}|Work\\Work.csproj|c:\\users\\kritp\\source\\repos\\work\\work\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFA26745-16E5-4CA6-BF1D-2AA4C71EAD62}|Work\\Work.csproj|solutionrelative:work\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFA26745-16E5-4CA6-BF1D-2AA4C71EAD62}|Work\\Work.csproj|c:\\users\\kritp\\source\\repos\\work\\work\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFA26745-16E5-4CA6-BF1D-2AA4C71EAD62}|Work\\Work.csproj|solutionrelative:work\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kritp\\source\\repos\\Work\\Work\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Work\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\kritp\\source\\repos\\Work\\Work\\App.xaml.cs",
+              "RelativeToolTip": "Work\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T05:29:07.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kritp\\source\\repos\\Work\\Work\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Work\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\kritp\\source\\repos\\Work\\Work\\MainPage.xaml.cs",
+              "RelativeToolTip": "Work\\MainPage.xaml.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAA0wFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T05:24:23.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\kritp\\source\\repos\\Work\\Work\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Work\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\kritp\\source\\repos\\Work\\Work\\MainPage.xaml",
+              "RelativeToolTip": "Work\\MainPage.xaml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-21T12:59:10.388Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Work.Insect"
+             Title="Orther"
+             BackgroundColor="#92754b">
+
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+            <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+        <Style TargetType="StackLayout">
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Spacing" Value="10"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <StackLayout>
+        <Label HorizontalOptions="Start" VerticalOptions="Start"/>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Label Text="Element and Status Effect Legend :" 
+           FontAttributes="Bold" FontSize="16" 
+           HorizontalOptions="Center" Margin="0,0,0,10" />
+
+            <Grid Grid.Row="1" HorizontalOptions="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <!-- Elements Row -->
+                <Image Grid.Row="0" Grid.Column="0" Source="fire.png" WidthRequest="24" HeightRequest="24" />
+                <Label Grid.Row="0" Grid.Column="1" Text="Fire" VerticalOptions="Center"/>
+
+                <Image Grid.Row="0" Grid.Column="2" Source="water.png" WidthRequest="24" HeightRequest="24"/>
+                <Label Grid.Row="0" Grid.Column="3" Text="Water" VerticalOptions="Center"/>
+
+                <Image Grid.Row="0" Grid.Column="4" Source="thunder.png" WidthRequest="24" HeightRequest="24"/>
+                <Label Grid.Row="0" Grid.Column="5" Text="Thunder" VerticalOptions="Center"/>
+
+                <Image Grid.Row="0" Grid.Column="6" Source="ice.png" WidthRequest="24" HeightRequest="24"/>
+                <Label Grid.Row="0" Grid.Column="7" Text="Ice" VerticalOptions="Center" />
+
+                <Image Grid.Row="0" Grid.Column="8" Source="dragon.png" WidthRequest="24" HeightRequest="24"/>
+                <Label Grid.Row="0" Grid.Column="9" Text="Dragon" VerticalOptions="Center"/>
+
+                <!-- Status Effects Row -->
+                <Image Grid.Row="1" Grid.Column="1" Source="paralysis.png" WidthRequest="24" HeightRequest="24" Margin="5"/>
+                <Label Grid.Row="1" Grid.Column="2" Text="Paralysis" VerticalOptions="Center" Margin="5"/>
+
+                <Image Grid.Row="1" Grid.Column="3" Source="poison.png" WidthRequest="24" HeightRequest="24" Margin="5"/>
+                <Label Grid.Row="1" Grid.Column="4" Text="Poison" VerticalOptions="Center" Margin="5"/>
+
+                <Image Grid.Row="1" Grid.Column="5" Source="sleep.png" WidthRequest="24" HeightRequest="24" Margin="5"/>
+                <Label Grid.Row="1" Grid.Column="6" Text="Sleep" VerticalOptions="Center" Margin="5"/>
+
+                <Image Grid.Row="1" Grid.Column="7" Source="blast.png" WidthRequest="24" HeightRequest="24" Margin="5"/>
+                <Label Grid.Row="1" Grid.Column="8" Text="Blast" VerticalOptions="Center" Margin="5" />
+            </Grid>
+        </Grid>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Label Text="Rarity Legend : "
+                   FontAttributes="Bold" FontSize="16" 
+                   HorizontalOptions="Center" Margin="0,40,0,10" />
+
+            <Grid Grid.Row="1" HorizontalOptions="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <!-- Elements Row -->
+                <Image Grid.Row="0" Grid.Column="0" Source="gsicon" WidthRequest="24" HeightRequest="24" Margin="5"/>
+                <Label Grid.Row="0" Grid.Column="1" Text="Rare 1" VerticalOptions="Center" Margin="5"/>
+
+                <Image Grid.Row="0" Grid.Column="2" Source="gsicon" WidthRequest="24" HeightRequest="24" Margin="5"/>
+                <Label Grid.Row="0" Grid.Column="3" Text="Rare 2" VerticalOptions="Center" Margin="5"/>
+
+                <Image Grid.Row="0" Grid.Column="4" Source="gsyellow" WidthRequest="24" HeightRequest="24" Margin="5"/>
+                <Label Grid.Row="0" Grid.Column="5" Text="Rare 3" VerticalOptions="Center" Margin="5"/>
+
+                <Image Grid.Row="0" Grid.Column="6" Source="gsgreen" WidthRequest="24" HeightRequest="24" Margin="5"/>
+                <Label Grid.Row="0" Grid.Column="7" Text="Rare 4" VerticalOptions="Center" Margin="5"/>
+
+                <Image Grid.Row="1" Grid.Column="0" Source="gslightblue" WidthRequest="24" HeightRequest="24" Margin="5"/>
+                <Label Grid.Row="1" Grid.Column="1" Text="Rare 5" VerticalOptions="Center" Margin="5"/>
+
+                <Image Grid.Row="1" Grid.Column="2" Source="gsblue" WidthRequest="24" HeightRequest="24" Margin="5"/>
+                <Label Grid.Row="1" Grid.Column="3" Text="Rare 6" VerticalOptions="Center" Margin="5"/>
+
+                <Image Grid.Row="1" Grid.Column="4" Source="gsorange" WidthRequest="24" HeightRequest="24" Margin="5"/>
+                <Label Grid.Row="1" Grid.Column="5" Text="Rare 7" VerticalOptions="Center" Margin="5"/>
+
+                <Image Grid.Row="1" Grid.Column="6" Source="gspurple" WidthRequest="24" HeightRequest="24" Margin="5"/>
+                <Label Grid.Row="1" Grid.Column="7" Text="Rare 8" VerticalOptions="Center" Margin="5"/>
+            </Grid>
+        </Grid>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Work.LongSword"
+             Title="LongSword"
+             BackgroundColor="#92754b">
+
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="HorizontalOptions" Value="Start"/>
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Padding" Value="10"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+
+            <Label Padding="10"/>
+            <Image Source="ls.png" HeightRequest="300" WidthRequest="400"/>
+
+            <Label Padding="10"/>
+            <Frame BackgroundColor="#af8e5f">
+                <StackLayout VerticalOptions="CenterAndExpand" Padding="5" Spacing="-15">
+                    <Label Text="Guard : Unable" FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="Desription : " FontAttributes="Bold" FontSize="18"/>
+                    <Label Text="A weapon that excels at swift movements and combos. With a sharp eye and good timing, you can counter incoming attacks."/>
+                    <Label Text="Landing certain attacks will raise the level of the Spirit Gauge."/>
+                    <Label Text="Once the Spirit Gauge turns red, some of your attacks will be strengthened."/>
+                </StackLayout>
+            </Frame>
+            
+            <Label Padding="-10"/>
+            <Frame BackgroundColor="#af8e5f">
+                <StackLayout VerticalOptions="CenterAndExpand" Padding="5" Spacing="-15">
+                    <Label Text="Weapon Traits : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="Long Swords are very versatile weapons. Their handling is quite different from the Great Sword's, even though they come from the same branch. Hunters will find that one can often upgrade a Great Sword into a Longsword, but almost never vice-versa."/>
+                    <Label Text=""/>
+                    <Label Text="Advantages : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="• Attacks can be chained together very easily. For example, triangle, triangle, circle, triangle is loop-able and helps fill the spirit bar very quickly."/>
+                    <Label Text="• Long Swords have 2 main branches, Bone and Iron Katana. As per usual, the bone path favors elements and status effects while the Iron path favors raw damage and sharpness, though both have multiple branches."/>
+                    <Label Text="• Long Swords have the Spirit Blade ability, represented as a Spirit Gauge below the Stamina bar. Every time a hit is landed, the Spirit bar fills. The amount filled is based on the power of the attack. Perform a Spirit Blade Attack with the R button. Performing a Spirit Attack drains some Spirit from the gauge. The first part of the Spirit Combo can be performed without Spirit, while the 2nd and 3rd swings can only be performed with sufficient Spirit. A full Spirit Combo consumes about half the Spirit Gauge."/>
+                    <Label Text="• Spirit Attacks can be extended for no additional Spirit cost by pressing triangle after performing a Spirit Attack. This will also help refill the gauge mid-combo to earn back some of the expended Spirit Gauge."/>
+                    <Label Text="• Spirit Attacks have ESP and do not bounce, regardless of weapon sharpness and monster armor, however, the added attacks in between will bounce normally. The extra reduction to sharpness from bouncing will still apply. Spirit Bar"/>
+                    <Label Text=""/>
+                    <Label Text="Spirit Bar : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="The Long Swords most defining trait is the Spirit Gauge. Using it correctly is vital to mastering the weapon. To perform a Spirit Attack"/>
+                    <Label Text="• When the Spirit Gauge is full, the hunter receives a 12% increase to attack power."/>
+                    <Label Text="• Once the Spirit Gauge is full, it will last 30 seconds while flashing and giving the increased attack effect."/>
+                    <Label Text="• After 30 seconds without hitting an enemy, the Spirit Gauge will stop flashing and begin to fall, removing the 12% attack increase."/>
+                    <Label Text="• Once the Spirit Gauge starts decreasing, it will take approximately 35 seconds before completely emptying itself."/>
+                    <Label Text="• Each Spirit attack will slightly deplete the Spirit Gauge but deal extra damage. In addition, Spirit Attacks have auto-ESP and do not bounce, regardless of weapon sharpness and hit location. Please note that ONLY Spirit Attacks gain ESP."/>
+                    <Label Text="• Pressing triangle or circle after the first and second attacks of Spirit Combo will perform an additional, unboosted attack without interrupting the Spirit Combo."/>
+                    <Label Text="• The final attack of the Spirit attack combo unleashes 3 consecutive slashes. These 3 hits are all part of a single attack and cannot be interrupted. The only possible follow-up actions after the 3rd attack of a Spirit Combo are the Fade Slash or a dodge roll."/>
+                    <Label Text="• It is possible to unsheathe directly into a Spirit Combo by pressing triangle and circle simultaneously while sprinting."/>
+                    <Label Text=""/>
+                    <Label Text="Advantages : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="• Faster movement than a true Great Sword when unsheathed, but nonetheless possessing a similar attack power."/>
+                    <Label Text="• Spirit gauge leads to attacks becoming more powerful."/>
+                    <Label Text="• Long reach."/>
+                    <Label Text="• Certain attacks make hunters unflinchable by small attacks."/>
+                    <Label Text="• Spirit Combo's attacks automatically have ESP - in other words, they never bounce."/>
+                    <Label Text=""/>
+                    <Label Text="Limitations : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="• KO is impossible without additional tools."/>
+                    <Label Text="• Requires deft precision with certain monsters where only certain areas are vulnerable, eg the Kirin's horn, a very small target, is its main weak spot."/>
+                    <Label Text="• Although their unsheathed movement speed is faster than a GS, a Long Sword is still slower than a Sword and Shield, Light Bowgun or Dual Swords, all of which boast the highest mobility. Or even a Hunting Horn that has the buff for increased movement speed."/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

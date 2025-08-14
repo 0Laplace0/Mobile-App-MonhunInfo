@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Work.SwordandShield"
+             Title="SwordandShield"
+             BackgroundColor="#92754b">
+
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="HorizontalOptions" Value="Start"/>
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Padding" Value="10"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+
+            <Label Padding="10"/>
+            <Image Source="ss.png" HeightRequest="300" WidthRequest="400"/>
+
+            <Label Padding="20"/>
+            <Frame BackgroundColor="#af8e5f">
+                <StackLayout VerticalOptions="CenterAndExpand" Padding="5" Spacing="-15">
+                    <Label Text="Guard : Able" FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="Desription : " FontAttributes="Bold" FontSize="18"/>
+                    <Label Text="A weapon that boasts maneuverability and rapid attacks."/>
+                    <Label Text="You can use the shield both to guard and to attack."/>
+                    <Label Text="You can even use some items while your weapon is drawn."/>
+                </StackLayout>
+            </Frame>
+            
+            <Label Padding="-10"/>
+            <Frame BackgroundColor="#af8e5f">
+                <StackLayout VerticalOptions="CenterAndExpand" Padding="5" Spacing="-15">
+                    <Label Text="Weapon Traits : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="Sword and Shields have some of the lowest average damage levels, but are extremely capable in a variety of other aspects, such as inflicting status ailments."/>
+                    <Label Text="• The reason that SnS users are left-handed is due to the ability to use items with the weapon out. The hunter always takes items with his or her right hand, if a hunter had the sword in the right hand, the hunter would stab him or herself. That is why the shield is on the right hand, and it actually is on the arm and not in the hand."/>
+                    <Label Text="• Sword and Shields often seem sharper than other weapons with the same color level of Sharpness. For example, if attacking a Kirin with green sharpness, the weapon will generally bounce less than other type of weapons."/>
+                    <Label Text="• SnS weapons are among the most balanced weapons available in the series, providing decent raw (and usually elemental) power combined with amazing mobility and agility plus defensive capabilities."/>
+                    <Label Text="• Sword and Shield has the widest variety of elemental weapons. At the same time, most SnS-type weapons have elemental properties."/>
+                    <Label Text="• It has incredibly speedy attacks, capable of quick hit-and-runs and being able to perform a dodging roll anytime it is required."/>
+                    <Label Text="• While blocking incoming attacks is possible with the Sword and Shield, it is not as effective as blocking with other weapons such as the Lance. The user will likely be broken out of the blocking stance when attempting to block heavier attacks, and more chip damage is usually suffered."/>
+                    <Label Text="• SnS users can use items with the weapon out, just by holding the block button and then using the item, without having to sheath the weapon like all the other weapon types."/>
+                    <Label Text="• By standing still and pressing block and vertical attack, the SnS can be drawn into a defensive stance, instead of the normal unsheathing attack. This can be done while moving by holding block and pressing both attack buttons simultaneously."/>
+                    <Label Text="• The Sword and Shield's longest combo is either forward upward slash, jumping slash, or rolling slash followed by 4 hit combo, 2 side hits, and then the spinning slash for a 8-hit combo."/>
+                    <Label Text=""/>
+                    <Label Text="Advantages : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="• Speedy attacks"/>
+                    <Label Text="• Great mobility"/>
+                    <Label Text="• Can guard"/>
+                    <Label Text="• Great elemental potential"/>
+                    <Label Text="• In second generation games, one is able to use items while guarding"/>
+                    <Label Text="• Often sharper than other weapon types that have the same level of sharpness."/>
+                    <Label Text="• Despite its poor attack power, it is a good weapon especially against agile, fast monsters, and it can eventually bring down a target (but this may require a long time)"/>
+                    <Label Text=""/>
+                    <Label Text="Limitations : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="• Has overall unimpressive sharpness"/>
+                    <Label Text="• Has the worst guarding capabilities compared to other weapons capable of guard"/>
+                    <Label Text="• Poor damage done in a single hit (Although its speed makes up for it)"/>
+                    <Label Text="• Small reach will force you to stay very close to monsters"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

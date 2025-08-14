@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Work.LightBowgun"
+             Title="LightBowgun"
+             BackgroundColor="#92754b">
+
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="HorizontalOptions" Value="Start"/>
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Padding" Value="10"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+
+            <Label Padding="10"/>
+            <Image Source="lg.png" HeightRequest="300" WidthRequest="400"/>
+
+            <Label Padding="10"/>
+            <Frame BackgroundColor="#af8e5f">
+                <StackLayout VerticalOptions="CenterAndExpand" Padding="5" Spacing="-15">
+                    <Label Text="Guard : Unable" FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="Desription : " FontAttributes="Bold" FontSize="18"/>
+                    <Label Text="A mid-range weapon that can fire various ammo types. Highly mobile and great at quick attacks and dodges."/>
+                    <Label Text="Use Rapid Fire energy to fire in quick succession."/>
+                    <Label Text="Energy regenerates over time and when you successfully land hits."/>
+                </StackLayout>
+            </Frame>
+
+            <Label Padding="-10"/>
+            <Frame BackgroundColor="#af8e5f">
+                <StackLayout VerticalOptions="CenterAndExpand" Padding="5" Spacing="-15">
+                    <Label Text="Weapon Traits : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="The Light Bowgun is more elemental than its counterpart, the Heavy Bowgun. Heavy Bowgun is usually used as a Main Gunner, while the Light Bowgun is a supporter. With light bowguns you can fire a plethora of elemental damage such as Thunder, Ice, and Water. With the Heavy Bowgun, you use Crags and Clusts, the main Powerhouse bullets. The Light Bowgun is capable of using these too, but many prefer Heavy Bowgun over Light for these ammos."/>
+                    <Label Text=""/>
+                    <Label Text="Advantages : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="• Can easily keep distance from a monster."/>
+                    <Label Text="• Different attachments can be used to upgrade weapons, such as a Silencer, Power barrel, Variable zoom scope and more."/>
+                    <Label Text="• Can inflict status ailments in addition to dealing extra damage from exploiting elemental weaknesses."/>
+                    <Label Text="• Swift movement speed compared to a Heavy Bowgun, on par with a Sword and Shield, or Dual Blades."/>
+                    <Label Text="• Rapid Fire which increases the damage output of that ammo types."/>
+                    <Label Text="• Generally large ammunition variety to be used in each Light Bowgun, as well as the Rapid Fire to compensate for low damage compared to a Heavy Bowgun."/>
+                    <Label Text="• In multiplayer, Light Bowgun wielders can easily provide supports for the team, whether through the bowgun itself or carried items."/>
+                    <Label Text="• Some Light Bowgun (also extended to Heavy Bowgun) can utilize multiple elemental ammos a monster is weak to, thus, if one wish to use elemental ammo as a main damage source, matching the Bowgun with the monsters with multiple elemental weaknesses can save up resources. For example, utilizing a Bowgun that can use both Flaming and Thunder Ammo against a Plesioth, which is weak to both Fire and Thunder element."/>
+                    <Label Text="• Light bowguns are arguably the safest way to kill certain monsters that possess a very fast speed (such as Tigrex, Nargacuga, Rajang, Blangonga, Bulldrome, Mono and Diablos etc), or those that Blademasters would have difficulty attacking (such as Gypceros, Khezu, Kirin, Plesioth, Basarios, Gravios etc). It is also possible to slay a Cephadrome when it's still in the sand, or a submerged Plesioth that hasn't jumped onto the ground."/>
+                    <Label Text=""/>
+                    <Label Text="Limitations : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="• Gunner armour has lower defense than Blademaster armour. Or from 5th Gen onward, doesn't have physical damage reduction like Blademaster weapons."/>
+                    <Label Text="• Need to invest money and resources for ammunition. In older games, resources for additional ammunitions must be carried in the same bag as the other important items. However, starting from 4th generation, an Ammo Pouch is introduced, which stores Bowgun's Ammunition and Bow's Coatings, erasing the problem of slot shortages."/>
+                    <Label Text="• Rapid Fire, once fired, cannot be redirected to account for monsters moving away, nor can you evade mid-salvo. Although damage per bullet hit is decreased, overall damage is increased when compared to the same ammo type with single-fire. However, due to this, you want to aim so that all bullets in the salvo hit. Or at the very least, as many shells as possible connect with the monster."/>
+                    <Label Text="• Be wary of inflicting a killing blow on a monster out of bound, as you will lose all of the carves for that quest."/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

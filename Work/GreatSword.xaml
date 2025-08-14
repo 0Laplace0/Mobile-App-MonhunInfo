@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Work.GreatSword"
+             Title="GreatSword"
+             BackgroundColor="#92754b">
+
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="HorizontalOptions" Value="Start"/>
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Padding" Value="10"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+
+            <Label Padding="10"/>
+            <Image Source="gs.png" HeightRequest="300" WidthRequest="300"/>
+
+            <Label Padding="20"/>
+            <Frame BackgroundColor="#af8e5f">
+                <StackLayout VerticalOptions="CenterAndExpand" Padding="5" Spacing="-15">
+                    <Label Text="Guard : Able" FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="Desription : " FontAttributes="Bold" FontSize="18"/>
+                    <Label Text="A weighty weapon with slower movement and attacks, but each blow packs a powerful punch."/>
+                    <Label Text="Suitable for hit-and-run tactics or even guarding, the Great Sword is highly adaptable."/>
+                </StackLayout>
+            </Frame>
+
+            <Label Padding="-10"/>
+            <Frame BackgroundColor="#af8e5f">
+                <StackLayout VerticalOptions="CenterAndExpand" Padding="5" Spacing="-15">
+                    <Label Text="Weapon Traits : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="Great Swords require a certain amount of experience to wield properly and master. To a novice, they may seem very slow and unwieldy. However, in the hands of an experienced hunter, they can prove very useful with a very nice damage output. "/>
+                    <Label Text=""/>
+                    <Label Text="Advantages : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="• Extremely powerful; It can easily destroy monster parts or cause flinch, stagger, or knock down due to a focusing, high-damage single strike."/>
+                    <Label Text="• Can guard against attacks, which can be drawn instantly to block monsters' attacks similar to other shield-bearing weapons."/>
+                    <Label Text="• Can perform charged attacks."/>
+                    <Label Text="• Long reach."/>
+                    <Label Text="• Sharpness is lost very slowly due to very low attack counts for each attack."/>
+                    <Label Text="• Natural Mind's Eye is gained on a level 3 charge, however, this is no longer true later in the series."/>
+                    <Label Text="• While it features very poor handling speed when unsheathed, more experienced users will find it very devastating against monsters like the Tigrex and Rajang, despite the fact that these foes possess terrifying agility. It's best to use a high raw damage GS with skills like Art of Unsheathing and Focus against these monsters."/>
+                    <Label Text="• In first generation games, this weapon is able to somewhat counter a wyvern's wind pressure if the player can continuously perform combo attacks."/>
+                    <Label Text=""/>
+                    <Label Text="Limitations : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="• With an extremely slow movement, users are recommended to sheath the weapon to chase after a faraway monster due to terrible movement speed when unsheathed."/>
+                    <Label Text="• Later in the series, although stunning monsters becomes possible, it is unconventional to focus on such action."/>
+                    <Label Text="• Requires tremendous skill and practice to use and master its striking ranges and unleashing the most powerful attacks."/>
+                    <Label Text="• Blocking reduces not only stamina but also sharpness - roughly equivalent to the deflected attack."/>
+                    <Label Text="• Complimenting Armor Skills such as Focus are generally more abundant on a high level armor or through slotting in decorations."/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

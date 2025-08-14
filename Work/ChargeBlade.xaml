@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Work.ChargeBlade"
+             Title="ChargeBlade"
+             BackgroundColor="#92754b">
+
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="HorizontalOptions" Value="Start"/>
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Padding" Value="10"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+
+            <Label Padding="10"/>
+            <Image Source="cb.png" HeightRequest="300" WidthRequest="400"/>
+
+            <Label Padding="10"/>
+            <Frame BackgroundColor="#af8e5f">
+                <StackLayout VerticalOptions="CenterAndExpand" Padding="5" Spacing="-15">
+                    <Label Text="Guard : Able" FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="Desription : " FontAttributes="Bold" FontSize="18"/>
+                    <Label Text="A versatile weapon that can morph between two different modes. Sword Mode allows you to maneuver yourself quickly and accurately."/>
+                    <Label Text="Dish out massive damage with Axe Mode. Charge phials while in Sword Mode to power up Axe Mode."/>
+                    <Label Text="Charged phials can power up different aspects of the weapon."/>
+                </StackLayout>
+            </Frame>
+
+            <Label Padding="-10"/>
+            <Frame BackgroundColor="#af8e5f">
+                <StackLayout VerticalOptions="CenterAndExpand" Padding="5" Spacing="-15">
+                    <Label Text="Weapon Traits : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="The Charge Blade is well known for its versatility and high skill ceiling, being well applicable to a myriad of situations via its two modes."/>
+                    <Label Text=""/>
+                    <Label Text="Sword Mode : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="• The weapon is unsheathed in this mode by default."/>
+                    <Label Text="• Sword Mode is primarily used for building up energy."/>
+                    <Label Text="• The weapon will automatically block at the end of a Roundslash attack, and at the beginning of a morph-to-axe attack."/>
+                    <Label Text="• The player can attack with a morph-to-axe attack immediately after blocking."/>
+                    <Label Text="• Enough attacks will cause the Phial Meter next to the player's Sharpness Meter to glow yellow, then red. Charging the axe when this meter is yellow will fill three (3) phials, and charging while red will fill five (5) phials."/>
+                    <Label Text="• Overfilling the Phial Meter without charging the axe will cause it to display a message that says CHARGE and will cause all attacks in sword to bounce regardless of sharpness."/>
+                    <Label Text="• The easiest way to fill the Phial Meter is to use the charged double-slash attack (Hold A for a moment, then release) and the Roundslash."/>
+                    <Label Text=""/>
+                    <Label Text="Axe Mode : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="• The player can unsheathe and immediately morph to Axe Mode"/>
+                    <Label Text="• Axe mode is to be used when the player has charged energy phials."/>
+                    <Label Text="• Charge Blades can have Impact phials, which deal explosive damage and can stun a monster, or Element phials, which deal a heavy dose of the weapon's elemental damage."/>
+                    <Label Text="• Introduced in MH4U, pressing the R button during the initial charging animation of a Super Burst will instead charge the shield and perform a Roundslash, causing the shield to glow red, or making the entire weapon glow red in Axe Mode. This gives a 20% damage bonus and causes shield-bash attacks to deal Phial damage. A charged shield will last 30 seconds per phial consumed, and must be replenished to maintain the damage bonus."/>
+                    <Label Text="• A charged shield while in Axe Mode grants access to the powerful Ultra Burst attack in place of a Super Burst. The Ultra Burst consumes the shield's charge and all available charged Phials in exchange for a powerful shockwave attack. Be sure not to miss! If you wish to use the Super Burst instead and keep your shield's charge, hold BACK on the analog stick (that is, the opposite direction your character is facing relative to the camera) and press X during the charge animation before the Burst."/>
+                    <Label Text="• Introduced in MHWI, pressing the L2 button right after starting a Super Amped Elemental Discharge (but before letting it be executed!) will trigger an attack called Savage Axe Slash, which puts you in Power Axe Mode, indicated by a glowing Axe icon on the top left of the screen. While in this mode, your axe consumes phials continually but also hits multiple times per swing as it passes through the enemy. This mode is also known as the Chainsaw Mode, as while attacking with the axe in this mode, the blade of the axe (the shield) continually spins around, causing a circular saw blade effect. Performing a Super Amped Elemental Discharge while in this mode will have an increased damage output, but will also end Power Axe Mode, as the move consumes all available phials."/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

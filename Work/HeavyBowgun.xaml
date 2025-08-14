@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Work.HeavyBowgun"
+             Title="HeavyBowgun"
+             BackgroundColor="#92754b">
+
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="HorizontalOptions" Value="Start"/>
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Padding" Value="10"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+
+            <Label Padding="10"/>
+            <Image Source="hg.png" HeightRequest="300" WidthRequest="400"/>
+
+            <Label Padding="10"/>
+            <Frame BackgroundColor="#af8e5f">
+                <StackLayout VerticalOptions="CenterAndExpand" Padding="5" Spacing="-15">
+                    <Label Text="Guard : Able" FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="Desription : " FontAttributes="Bold" FontSize="18"/>
+                    <Label Text="A long-range weapon that fires ammo from a distance. On top of the Auto-Guard function, you can also guard incoming attacks manually."/>
+                    <Label Text="Expend energy in Ignition Mode to fire special ammo. Energy regenerates over time and when you successfully land hits."/>
+                </StackLayout>
+            </Frame>
+
+            <Label Padding="-10"/>
+            <Frame BackgroundColor="#af8e5f">
+                <StackLayout VerticalOptions="CenterAndExpand" Padding="5" Spacing="-15">
+                    <Label Text="Weapon Traits : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="The Heavy Bowgun is the ranged weapon of choice for those who wish to have as much firepower as they can, while still maintaining some distance. While much slower than their Light Bowgun cousins, they are the only ranged weapon that allows a shield to be attached, giving them guard capabilities. For an experienced gunner, this is more of a restraint since you can only attach a power barrel OR a shield. In games before MH3U, Heavy Bowguns usually do not support elemental shots unlike their cousins, the Light Bowguns. They mainly support raw damage shots (such as Crag or Pierce)."/>
+                    <Label Text="• A powerful ranged weapon."/>
+                    <Label Text="• Bullets allow for flexible gameplay such as hitting elemental weak points or piercing damage."/>
+                    <Label Text="• Shield attachment can block weak blows and help protect against some roars and flashes."/>
+                    <Label Text=""/>
+                    <Label Text="Advantages : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="• Generally much higher damage than a Light Bowgun, as well as larger clip size to keep up the DPS."/>
+                    <Label Text="• A Power Barrel, Shield and other attachments can be attached."/>
+                    <Label Text="• Easily keep distance from a monster."/>
+                    <Label Text="• Can inflict status ailment in addition to dealing extra damage from exploiting elemental weaknesses through elemental ammos."/>
+                    <Label Text="• In online modes, a gunner can provide some sort of support, similar to a Hunting Horn, however, this comes at the expense of damage downtime."/>
+                    <Label Text="• As of 5th generation, Heavy Bowgun now have very slow roll but covering a large distance, which is useful for just evade out of the way."/>
+                    <Label Text="• Heavy bowguns are arguably the safest way to kill certain monsters that Blademasters would have difficulty attacking (like the Gypceros, Khezu, Kirin, Plesioth, Basarios, Gravios etc). It is also possible to slay a Cephadrome when it's still in the sand, or a submerged Plesioth that hasn't jumped onto the ground."/>
+                    <Label Text=""/>
+                    <Label Text="Limitations : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="• To compensate for their immense firepower, Heavy Bowguns are much slower compared to the Light Bowgun."/>
+                    <Label Text="• A shield is much less effective compared to some melee weapons that can block like Lance, Gunlance, or Charge Blade."/>
+                    <Label Text="• Cannot Rapid Fire."/>
+                    <Label Text="• Gunner armor has lower defense than Blademaster armor. Or from 5th Gen onward, doesn't have physical damage reduction like Blademaster weapons."/>
+                    <Label Text="• Need to invest money and/or resources for ammunition. In older games, resources for additional ammunitions must be carried in the same bag as the other important items. However, starting from 4th generation, an Ammo Pouch is introduced, which stores Bowgun's Ammunition and Bow's Coatings, erasing the problem of slot shortages."/>
+                    <Label Text="• Some actions, such as tail severing, inflicting status, and knocking out monsters, require specific type of ammo, which all Bowguns can only utilize some ammo type simultaneously. "/>
+                    <Label Text="• Very slow sheathing and unsheathing."/>
+                    <Label Text="• Be wary of inflicting a killing blow on a monster that's in an out of reach area, as you will lost all of the carves for that quest."/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

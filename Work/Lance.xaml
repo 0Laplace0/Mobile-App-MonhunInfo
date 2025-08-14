@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Work.Lance"
+             Title="Lance"
+             BackgroundColor="#92754b">
+
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="HorizontalOptions" Value="Start"/>
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Padding" Value="10"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+
+            <Label Padding="10"/>
+            <Image Source="la.png" HeightRequest="300" WidthRequest="400"/>
+
+            <Label Padding="20"/>
+            <Frame BackgroundColor="#af8e5f">
+                <StackLayout VerticalOptions="CenterAndExpand" Padding="5" Spacing="-15">
+                    <Label Text="Guard : Able" FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="Desription : " FontAttributes="Bold" FontSize="18"/>
+                    <Label Text="The lance is a weapon with top-class defense. Its thrusting attacks are quick and safe to execute. Make good use of its variety of guard-related moves and counters."/>
+                </StackLayout>
+            </Frame>
+
+            <Label Padding="-10"/>
+            <Frame BackgroundColor="#af8e5f">
+                <StackLayout VerticalOptions="CenterAndExpand" Padding="5" Spacing="-15">
+                    <Label Text="Weapon Traits : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="Lances are powerful Weapons that should not be overlooked. They have the capacity to deal some pretty decent damage. Lances can be found in the 2 main trees (as usual with almost all weapons)."/>
+                    <Label Text="• Lances have an overall high Sharpness bar compared to other weapon"/>
+                    <Label Text="• Lances come with a shield and are the best blockers in the game"/>
+                    <Label Text="• Lances have a tendency to be accompanied with a defense bonus (although this defense boost is usually minimal). They can be used for tanking but Gunlances are recommended if you choose to take the tanking route."/>
+                    <Label Text="• Lances come in a wide variety of elements, making them suitable for the every situation. They are not as elementally powerful as the Sword and Shield, however."/>
+                    <Label Text="• Lances have a long range of attack (due to their length) and have very precise and accurate strikes. This makes them perfect for targeting specific monster parts that other weapons can not reach as easily."/>
+                    <Label Text="• Lances have a middle to high overall damage. Compared to their cousins, the Gunlances, they have higher damage."/>
+                    <Label Text="• Hunters can land 2 kinds of stabs: frontal and upward. Both of these can be chained up to 3 times."/>
+                    <Label Text="• Lance wielders can perform small back jumps and sideways slides. After each evade you can chain 3 stabs in any combination. After a back jump, if you hold the analog stick right or left and press X, you can do a slide dodge in that direction. This is useful if you are unfamiliar with the dodging style and accidentally jump towards a monster."/>
+                    <Label Text="• After performing one jump (or after attacking), the lancer can perform a large back-step that is longer than the usual back-step. You can do this by pulling back on the analog stick and pressing X during your hop after the initial hop or attack. After the large back-step is performed, you can not chain together any more jumps until you reset your combo. This jump also uses more stamina."/>
+                    <Label Text="• Lance hunters can perform a charging attack that depletes stamina. The charge is relatively weak but can be finished with a powerful front stab, which is the strongest single Lance attack."/>
+                    <Label Text="• An effective tactic for the charging attack is to knock the monster down, then charge near a jointed area of the monster (e.g. the joint of a Rathalos back and wing, or the joint of any monsters legs and stomach). You should be running in place towards said joint but still striking the joint, dealing large amounts of damage."/>
+                    <Label Text="• Lances have the Fast draw and defensive stance abilities."/>
+                    <Label Text="• Some users complain about the lack of mobility, but by back-hopping in the direction that you want to travel in you can reach your destination faster than if you were walking with your weapon unsheathed. Note: The armor skill “Evade Distance Up“ increases the hop distance of the lance, thus improving evade techniques and unsheathed travel."/>
+                    <Label Text="• While Lances are purely cutting weapons, the shield can be used for impact attacks. Lance also has a hidden mechanic that allows it to mimic impact damage, but in value only. This means that the lance will take the higher of the two hitzones, after the stipulation of only taking 72% of the impact hitzones value. A Lance will only change if the impact hitzone value is notably larger than the cutting hitzone value. For example, when the lance strikes a Daimyo's shell, the cutting hitzone has a value of 30 and the impact hitzone of the shell has a value of 50. The game will reduce the impact hitzone down by 72%, in this case the impact hitzone is turned into 36, since the number is still higher than the cutting value, the lance will switch. However if the cutting hitzone value is 22 like Barroth's head, and the impact hitzone value is 25, after the 72% stipulation the impact hitzone is only left with 18, meaning it'll stick to cutting damage."/>
+                    <Label Text=""/>
+                    <Label Text="Advantages : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="• The Counter-stab maneuver allows the wielder to quickly cancel an attack combo to raise his shield, and then immediately keep attacking after blocking a monster attack"/>
+                    <Label Text="• Incredible range."/>
+                    <Label Text="• Considerably good attack power, as well as an ability to focus on a single point."/>
+                    <Label Text="• Many lances also give defense boosts. For example, lances made from Hermitaur materials."/>
+                    <Label Text="• Most effective guard out of all blademaster weapons."/>
+                    <Label Text=""/>
+                    <Label Text="Limitations : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="• Dodging is somewhat limited, with the backstep sometimes causing the user to be backed into a corner."/>
+                    <Label Text="• Small variety of attacks and rather cumbersome to wield."/>
+                    <Label Text="• In general, harder to target the monster's tail due to its cumbersome speed."/>
+                    <Label Text="• In general, very hard to KO monster unless deliberately using the shield attack."/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

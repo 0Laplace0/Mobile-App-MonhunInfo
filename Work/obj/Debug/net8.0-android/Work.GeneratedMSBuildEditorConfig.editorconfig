@@ -1,0 +1,139 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Work
+build_property.ProjectDir = C:\Users\kritp\source\repos\Work\Work\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/kritp/source/repos/Work/Work/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Work.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/kritp/source/repos/Work/Work/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Work.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/kritp/source/repos/Work/Work/Bow.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Work.Bow.xaml
+build_metadata.AdditionalFiles.TargetPath = Bow.xaml
+build_metadata.AdditionalFiles.RelativePath = Bow.xaml
+
+[C:/Users/kritp/source/repos/Work/Work/ChargeBlade.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Work.ChargeBlade.xaml
+build_metadata.AdditionalFiles.TargetPath = ChargeBlade.xaml
+build_metadata.AdditionalFiles.RelativePath = ChargeBlade.xaml
+
+[C:/Users/kritp/source/repos/Work/Work/DualBlades.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Work.DualBlades.xaml
+build_metadata.AdditionalFiles.TargetPath = DualBlades.xaml
+build_metadata.AdditionalFiles.RelativePath = DualBlades.xaml
+
+[C:/Users/kritp/source/repos/Work/Work/GreatSword.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Work.GreatSword.xaml
+build_metadata.AdditionalFiles.TargetPath = GreatSword.xaml
+build_metadata.AdditionalFiles.RelativePath = GreatSword.xaml
+
+[C:/Users/kritp/source/repos/Work/Work/Gunlance.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Work.Gunlance.xaml
+build_metadata.AdditionalFiles.TargetPath = Gunlance.xaml
+build_metadata.AdditionalFiles.RelativePath = Gunlance.xaml
+
+[C:/Users/kritp/source/repos/Work/Work/Hammer.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Work.Hammer.xaml
+build_metadata.AdditionalFiles.TargetPath = Hammer.xaml
+build_metadata.AdditionalFiles.RelativePath = Hammer.xaml
+
+[C:/Users/kritp/source/repos/Work/Work/HeavyBowgun.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Work.HeavyBowgun.xaml
+build_metadata.AdditionalFiles.TargetPath = HeavyBowgun.xaml
+build_metadata.AdditionalFiles.RelativePath = HeavyBowgun.xaml
+
+[C:/Users/kritp/source/repos/Work/Work/HuntingHorn.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Work.HuntingHorn.xaml
+build_metadata.AdditionalFiles.TargetPath = HuntingHorn.xaml
+build_metadata.AdditionalFiles.RelativePath = HuntingHorn.xaml
+
+[C:/Users/kritp/source/repos/Work/Work/Insect.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Work.Insect.xaml
+build_metadata.AdditionalFiles.TargetPath = Insect.xaml
+build_metadata.AdditionalFiles.RelativePath = Insect.xaml
+
+[C:/Users/kritp/source/repos/Work/Work/InsectGlaive.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Work.InsectGlaive.xaml
+build_metadata.AdditionalFiles.TargetPath = InsectGlaive.xaml
+build_metadata.AdditionalFiles.RelativePath = InsectGlaive.xaml
+
+[C:/Users/kritp/source/repos/Work/Work/Lance.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Work.Lance.xaml
+build_metadata.AdditionalFiles.TargetPath = Lance.xaml
+build_metadata.AdditionalFiles.RelativePath = Lance.xaml
+
+[C:/Users/kritp/source/repos/Work/Work/LightBowgun.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Work.LightBowgun.xaml
+build_metadata.AdditionalFiles.TargetPath = LightBowgun.xaml
+build_metadata.AdditionalFiles.RelativePath = LightBowgun.xaml
+
+[C:/Users/kritp/source/repos/Work/Work/LongSword.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Work.LongSword.xaml
+build_metadata.AdditionalFiles.TargetPath = LongSword.xaml
+build_metadata.AdditionalFiles.RelativePath = LongSword.xaml
+
+[C:/Users/kritp/source/repos/Work/Work/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Work.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/kritp/source/repos/Work/Work/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Work.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/kritp/source/repos/Work/Work/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Work.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/kritp/source/repos/Work/Work/SwitchAxe.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Work.SwitchAxe.xaml
+build_metadata.AdditionalFiles.TargetPath = SwitchAxe.xaml
+build_metadata.AdditionalFiles.RelativePath = SwitchAxe.xaml
+
+[C:/Users/kritp/source/repos/Work/Work/SwordandShield.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Work.SwordandShield.xaml
+build_metadata.AdditionalFiles.TargetPath = SwordandShield.xaml
+build_metadata.AdditionalFiles.RelativePath = SwordandShield.xaml

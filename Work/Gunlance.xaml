@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Work.Gunlance"
+             Title="Gunlance"
+             BackgroundColor="#92754b">
+
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="HorizontalOptions" Value="Start"/>
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Padding" Value="10"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+
+            <Label Padding="10"/>
+            <Image Source="gl.png" HeightRequest="300" WidthRequest="400"/>
+
+            <Label Padding="20"/>
+            <Frame BackgroundColor="#af8e5f">
+                <StackLayout VerticalOptions="CenterAndExpand" Padding="5" Spacing="-15">
+                    <Label Text="Guard : Able" FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="Desription : " FontAttributes="Bold" FontSize="18"/>
+                    <Label Text="A weapon with a long reach and the ability to fire explosive shells."/>
+                    <Label Text="Use sidesteps to make small positioning adjustments. Guard against even the most powerful of attacks. Utilize a variety of powerful shell-based attacks."/>
+                </StackLayout>
+            </Frame>
+
+            <Label Padding="-10"/>
+            <Frame BackgroundColor="#af8e5f">
+                <StackLayout VerticalOptions="CenterAndExpand" Padding="5" Spacing="-15">
+                    <Label Text="Weapon Traits : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="Gunlance are long, piercing weapons with a mechanism inside which can fire an explosive round. This is called Shelling. Unlike Bowguns, the Gunlance cannot fire over distances. The Shelling ability can only be used from close range and reduces the weapon's sharpness with each use. The use of the weapon is largely similar to the original Lance. Unlike ranged weapons, Gunlances come with preset, unlimited ammo. They are able to charge up, indicated by the radiating energy at the tip of the lance, and dish out a strong explosive attack referred to as Wyvern's Fire."/>
+                    <Label Text=""/>
+                    <Label Text="Advantages : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="• Consistent and reliable shelling damage with its fixed, unreducible damage."/>
+                    <Label Text="• Like with the normal Lance, Gunlance users possess a large shield that protects against a variety of attacks."/>
+                    <Label Text="• Capable of executing a variety of relatively fluid combos by mixing up stabs and shelling."/>
+                    <Label Text="• Versatile range and attack direction, able to attack at 45 degree and 90 degree angles (overhead). Coupled with Long shell types, the Gunlance becomes one of the longest-reaching Blademaster weapons."/>
+                    <Label Text="• Due to their unique explosive mechanics, Gunlance shells excel at breaking otherwise tough-to-damage monster parts such as an Uragaan's chin or a Nargacuga's wing blades."/>
+                    <Label Text="• There are 3 main types of Gunlance shell attacks: Normal, Spread and Long, allowing users to choose which is best for the opponent they encounter."/>
+                    <Label Text=""/>
+                    <Label Text="Limitations : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="• Shelling, and its associated special attacks, chew through sharpness relatively quickly. Shelling is also impossible when sharpness is at red level."/>
+                    <Label Text="• Actions aside from stabbing attacks (Reloading, lance slam, Full Burst, Wyvern Fire etc.) suffer from heavy animations backswing that leave the user open to attacks."/>
+                    <Label Text="• Only method of dodge is a single backhop/sidestep with very short invincibility frames, giving Gunlance users limited evasive options, but is generally covered by its guarding ability. Users are advised to have skills like Evade Distance Up, Evade+1 etc."/>
+                    <Label Text="• The Gunlance's wide spread shelling attacks pose the large risk of disrupting nearby hunters with friendly fire, especially the Wyvern Fire which can send hunters flying."/>
+                    <Label Text="• Cutting off tail of monsters is rather a hassle for Gunlance, however, it also have a heavy attack with can be perform continuously when an opportunity is present."/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Work.MainPage"
+             Title="Weapons"
+             BackgroundColor="#af8e5f">
+
+    <ContentPage.Resources>
+        <Style TargetType="Frame">
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="CornerRadius" Value="10"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="BackgroundColor" Value="#8B5A2B"/>
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+            <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+        <Style TargetType="StackLayout">
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Spacing" Value="10"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <Grid Padding="10" RowSpacing="10" ColumnSpacing="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="140"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Button 1 -->
+        <Frame Grid.Row="0" Grid.Column="0">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_GS"/>
+            </Frame.GestureRecognizers>
+            <StackLayout>
+                <Image Source="gsicon" HeightRequest="50"/>
+                <Label Text="Great Sword"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Button 2 -->
+        <Frame Grid.Row="0" Grid.Column="1">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_LS"/>
+            </Frame.GestureRecognizers>
+            <StackLayout>
+                <Image Source="lsicon" HeightRequest="50"/>
+                <Label Text="Long Sword"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Button 3 -->
+        <Frame Grid.Row="0" Grid.Column="2">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_SS"/>
+            </Frame.GestureRecognizers>
+            <StackLayout>
+                <Image Source="ssicon" HeightRequest="50"/>
+                <Label Text="Sword and Shield"/>
+            </StackLayout>
+        </Frame>
+        
+        <!-- Button 4 -->
+        <Frame Grid.Row="1" Grid.Column="0">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_DB"/>
+            </Frame.GestureRecognizers>
+            <StackLayout>
+                <Image Source="dbicon" HeightRequest="50"/>
+                <Label Text="Dual Blades"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Button 5 -->
+        <Frame Grid.Row="1" Grid.Column="1">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_HM"/>
+            </Frame.GestureRecognizers>
+            <StackLayout>
+                <Image Source="hmicon" HeightRequest="50"/>
+                <Label Text="Hammer"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Button 6 -->
+        <Frame Grid.Row="1" Grid.Column="2">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_HH"/>
+            </Frame.GestureRecognizers>
+            <StackLayout>
+                <Image Source="hhicon" HeightRequest="50"/>
+                <Label Text="Hunting Horn"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Button 7 -->
+        <Frame Grid.Row="2" Grid.Column="0">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_LA"/>
+            </Frame.GestureRecognizers>
+            <StackLayout>
+                <Image Source="laicon" HeightRequest="50"/>
+                <Label Text="Lance"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Button 8 -->
+        <Frame Grid.Row="2" Grid.Column="1">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_GL"/>
+            </Frame.GestureRecognizers>
+            <StackLayout>
+                <Image Source="glicon" HeightRequest="50"/>
+                <Label Text="Gunlance"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Button 9 -->
+        <Frame Grid.Row="2" Grid.Column="2">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_SA"/>
+            </Frame.GestureRecognizers>
+            <StackLayout>
+                <Image Source="saicon" HeightRequest="50"/>
+                <Label Text="Switch Axe"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Button 10 -->
+        <Frame Grid.Row="3" Grid.Column="0">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_CB"/>
+            </Frame.GestureRecognizers>
+            <StackLayout>
+                <Image Source="cbicon" HeightRequest="50"/>
+                <Label Text="Charge Blade"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Button 11 -->
+        <Frame Grid.Row="3" Grid.Column="1">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_LB"/>
+            </Frame.GestureRecognizers>
+            <StackLayout>
+                <Image Source="lgicon" HeightRequest="50"/>
+                <Label Text="Light Bowgun"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Button 12 -->
+        <Frame Grid.Row="3" Grid.Column="2">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_HB"/>
+            </Frame.GestureRecognizers>
+            <StackLayout>
+                <Image Source="hgicon" HeightRequest="50"/>
+                <Label Text="Heavy Bowgun"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Button 13 -->
+        <Frame Grid.Row="4" Grid.Column="0">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_BW"/>
+            </Frame.GestureRecognizers>
+            <StackLayout>
+                <Image Source="bwicon" HeightRequest="50"/>
+                <Label Text="Bow"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Button 14 -->
+        <Frame Grid.Row="4" Grid.Column="1">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_IG"/>
+            </Frame.GestureRecognizers>
+            <StackLayout>
+                <Image Source="igicon" HeightRequest="50"/>
+                <Label Text="Insect Glaive"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Button 15 -->
+        <Frame Grid.Row="4" Grid.Column="2">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_IS"/>
+            </Frame.GestureRecognizers>
+            <StackLayout>
+                <Image Source="insecticon" HeightRequest="50"/>
+                <Label Text="Other"/>
+            </StackLayout>
+        </Frame>
+
+    </Grid>
+
+</ContentPage>

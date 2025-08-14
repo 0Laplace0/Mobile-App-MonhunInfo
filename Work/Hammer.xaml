@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Work.Hammer"
+             Title="Hammer"
+             BackgroundColor="#92754b">
+
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="HorizontalOptions" Value="Start"/>
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Padding" Value="10"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+
+            <Label Padding="10"/>
+            <Image Source="hm.png" HeightRequest="300" WidthRequest="400"/>
+
+            <Label Padding="20"/>
+            <Frame BackgroundColor="#af8e5f">
+                <StackLayout VerticalOptions="CenterAndExpand" Padding="5" Spacing="-15">
+                    <Label Text="Guard : Unable" FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="Desription : " FontAttributes="Bold" FontSize="18"/>
+                    <Label Text="A blunt weapon with destructive power and good mobility."/>
+                    <Label Text="Charge your attacks to make them more powerful. You can even stun monsters by landing multiple hits to their head."/>
+                </StackLayout>
+            </Frame>
+
+            <Label Padding="-10"/>
+            <Frame BackgroundColor="#af8e5f">
+                <StackLayout VerticalOptions="CenterAndExpand" Padding="5" Spacing="-15">
+                    <Label Text="Weapon Traits : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="Hammers are sheer brute force. The best defense here is a good offense, and the best strategy for a hammer is to line oneself up safely while timing the R button swings at vital points. When hunting in groups, the hammer is useful for knocking and flinching monsters. Your other fellow hunters with cutting weapons however, are given a great opportunity to cut off the tails of monsters, or break parts without worrying about the monster attacking them. When you use the swinger at 4 swings, press triangle to perform the most effective hammer damage. Players call that powerful swing the Golf Swing. This can KO a monster. As of MH3, landing attacks on any part other than the head will drain a monster's stamina, which will make the monster more exhausted than usual and may even disable their more dangerous attacks."/>
+                    <Label Text=""/>
+                    <Label Text="Advantages : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="• Surprisingly decent walking speed when unsheathed."/>
+                    <Label Text="• Particularly useful charged attacks. Users can also move around and have some Wind pressure resistance while charging."/>
+                    <Label Text="• Can KO monsters (in 2nd Gen onwards)"/>
+                    <Label Text="• Drains monsters' stamina (in 3rd Gen onwards)"/>
+                    <Label Text="• Super charge and spin charge both have automatic Mind's Eye."/>
+                    <Label Text="• Short range and uniform attacks gives it great precision when targeting monster weak points"/>
+                    <Label Text="• It's the easiest weapon to break the skulls that Hermitaur and Ceanataur wear on their backs although the Lance or Gunlance can also suffice."/>
+                    <Label Text=""/>
+                    <Label Text="Limitations : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="• Requires good timing"/>
+                    <Label Text="• Charging the Hammer drains the stamina"/>
+                    <Label Text="• Rather poor elemental and/or status damage output overall. Sunbreak's Courage Charge Switch Skill is the exception of this."/>
+                    <Label Text="• It is unable to cut tails"/>
+                    <Label Text="• In multiplayer games, it can launch allied hunters into the air with the drawing attack / golf swing"/>
+                    <Label Text="• You must get pretty close to your target, and certain monsters' head are sometimes hard to reach."/>
+                    <Label Text="• In multiplayer games from 5th Gen onwards, ailment status' threshold are increased, making it harder to KO monsters in group hunts compared to single player."/>
+                    <Label Text="• Hammer users, being unable to guard, can only rely on a roll to evade attacks."/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

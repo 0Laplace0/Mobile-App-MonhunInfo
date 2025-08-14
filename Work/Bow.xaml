@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Work.Bow"
+             Title="Bow"
+             BackgroundColor="#92754b">
+
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="HorizontalOptions" Value="Start"/>
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Padding" Value="10"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout Orientation="Vertical" Padding="10" Spacing="5">
+
+            <Label Padding="10"/>
+            <Image Source="bw.png" HeightRequest="300" WidthRequest="400"/>
+
+            <Label Padding="20"/>
+            <Frame BackgroundColor="#af8e5f">
+                <StackLayout VerticalOptions="CenterAndExpand" Padding="5" Spacing="-15">
+                    <Label Text="Guard : Unable" FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="Desription : " FontAttributes="Bold" FontSize="18"/>
+                    <Label Text="A mid-range weapon that uses a variety of arrow-based attacks."/>
+                    <Label Text="Charge your arrows to increase their damage. The bow also boasts high mobility."/>
+                    <Label Text="Hitting a monster with a Tracer will cause arrows to home in on it. Tracers will explode after being dealt enough damage or after enough time passes."/>
+                </StackLayout>
+            </Frame>
+
+            <Label Padding="-10"/>
+            <Frame BackgroundColor="#af8e5f">
+                <StackLayout VerticalOptions="CenterAndExpand" Padding="5" Spacing="-15">
+                    <Label Text="Weapon Traits : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="The Bow is a naturally fast weapon. A common tactic for Bow is to hit and run. Also, using the Bow requires the knowledge of the monsters' weak spots and elemental weaknesses to end the hunt faster."/>
+                    <Label Text="Last but not least, the use of charge levels and coatings allow a large set of options. The decision of what charges and coatings to use is very important."/>
+                    <Label Text="Due to nature of the Bow capable of hitting multiple times by just one attack, this weapon is more oriented to focusing on Elemental Damage."/>
+                    <Label Text=""/>
+                    <Label Text="Advantages : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="• Ranged weapon, thus carries less risk than the direct melee attacker that blademasters would be involved in."/>
+                    <Label Text="• Unlimited arrows unlike Bowguns; standard shots can still be charged and fired normally even when Coatings completely ran out. Though technically, Gunners can always fall back to Normal S Lv 1, of which there is an infinite amount of bullets."/>
+                    <Label Text="• As with Great Swords and Hammers, the Bow's munitions normally have up to 3 levels of charges. Most Bows can reach the 4th charge level with the use of a specific skill. (Loading (Pre-5th Gen or Bow Charge Plus (5th Gen)) While some of them can charge to Level 4 without needing the aforementioned skills, some only has up to Charge Level 2 by default."/>
+                    <Label Text="• Unlike a Great Sword, Bow can be charged while moving, so you retain mobility while preparing for attacks."/>
+                    <Label Text="• A still charging a shot can be cancelled by dodging, so you won't waste resources in case the monster is fleeing the area."/>
+                    <Label Text="• Can 'quick draw' into charging shots."/>
+                    <Label Text="• Bows as well as Light Bowguns are arguably the safest way to kill certain monsters that have high mobility."/>
+                    <Label Text=""/>
+                    <Label Text="Limitations : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="• Unlike the Bowguns, Bows have a fixed element like Blademaster weapons. However, you can carry different types of status attack arrows, like Poison coatings, Stun coatings etc."/>
+                    <Label Text="• Gunner armor has lower defense than Blademaster armor. Or from 5th Gen onward, doesn't have physical damage reduction like Blademaster weapons."/>
+                    <Label Text="• Need to invest money and resources for coatings. In older games, Coatings themselves and the resources for additional coatings must be carried in the same bag as the other important items. However, starting from 4th generation, an Ammo Pouch is introduced, which stores Bowgun's Ammunition and Bow's Coatings, reducing the problem of slot shortages."/>
+                    <Label Text="• Some actions, such as tail severing and knocking monsters out, while possible for Bows, require specific attacks that are normally unconventional or awkward for the weapons."/>
+                    <Label Text="• Drains stamina when charging attacks."/>
+                    <Label Text="• Bow has a little reduced movement speed when unsheathed."/>
+                    <Label Text="• Slow sheathing speed."/>
+                    <Label Text="• Be wary of killing the monster that's in an out of reach area, as you will lost all of the carves for that quest."/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Work.SwitchAxe"
+             Title="SwitchAxe"
+             BackgroundColor="#92754b">
+
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="HorizontalOptions" Value="Start"/>
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Padding" Value="10"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+
+            <Label Padding="10"/>
+            <Image Source="sa.png" HeightRequest="300" WidthRequest="400"/>
+
+            <Label Padding="20"/>
+            <Frame BackgroundColor="#af8e5f">
+                <StackLayout VerticalOptions="CenterAndExpand" Padding="5" Spacing="-15">
+                    <Label Text="Guard : Unable" FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="Desription : " FontAttributes="Bold" FontSize="18"/>
+                    <Label Text="A multifaceted weapon that can morph between two different modes."/>
+                    <Label Text="Axe Mode excels at long-reach attacks."/>
+                    <Label Text="Sword Mode lets you unleash faster attacks."/>
+                </StackLayout>
+            </Frame>
+
+            <Label Padding="-10"/>
+            <Frame BackgroundColor="#af8e5f">
+                <StackLayout VerticalOptions="CenterAndExpand" Padding="5" Spacing="-15">
+                    <Label Text="Weapon Traits : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="The weapon has transformation capabilities, with one blade shifting while being sheathed as well as sliding to a different position to change its attack style. In its secondary form, the weapon behaves far differently from its standard variation and uses a phial of specialized coating to add certain effects to the weapon. The weapon is also able to overload this phial, ending in a concentrated burst."/>
+                    <Label Text=""/>
+                    <Label Text="Advantages : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="• Quick sidesteps allow easy evading through monster attacks."/>
+                    <Label Text="• Sword Mode features built-in Mind's Eye."/>
+                    <Label Text="• Attacks come out relatively quick with little recovery, and attacks even faster in Sword Mode. Tough Sword mode is considerably slower-paced in 5th gen, its still regularly faster than Axe mode."/>
+                    <Label Text="• Can switch modes mid-combo. The capacity is vastly improved in 5th generation where nearly all moves are eligible link to a morph swing."/>
+                    <Label Text="• All of its combos are infinite."/>
+                    <Label Text="• Can target weak spots with precise hits."/>
+                    <Label Text="• Very high DPS in Sword Mode outside of Monster Hunter 4/4U. In Monster Hunter Rise, the weapon has a greater elemental DPS potential."/>
+                    <Label Text="• Axe Mode's upswing attack has the highest range of any blademaster weapon."/>
+                    <Label Text="• While in a combo it has super armor effect and won't be affected by small hits from monsters and even teammates. However powerful hits will make the hunter flinch."/>
+                    <Label Text=""/>
+                    <Label Text="Limitations : " FontAttributes="Bold" FontSize="20"/>
+                    <Label Text="• Loses sharpness faster than average. "/>
+                    <Label Text="• Its most powerful attacks are disruptive to other hunters."/>
+                    <Label Text="• Weak damage and low mobility in MH4/4U, making it a very underpowered weapon overall."/>
+                    <Label Text="• Despite having extremely powerful numbers in Tri, lacks solid endgame weapon options. The weapon is less powerful in P3rd, but received a more solid weapon selection improving its overall performance in the endgame."/>
+                    <Label Text="• Combos are rather hard to get out of; another con that has been removed in P3rd."/>
+                    <Label Text="• Mobility is rather limited in sword mode, and has the same mobility of a great sword."/>
+                    <Label Text="• The Switch Axe does not provide any move that involves guarding."/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
